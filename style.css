@@ -1,11 +1,50 @@
-.container-fluid {
-  background-color: rgb(158, 255, 47) rgb(135, 215, 235);
-  padding: 20px;
-  width: 90%;
-  margin: 20px 20px auto;
+body{
+    background-image: url("img.jpg");
 }
-.backgroun {
-  background-image: url(image.jpeg);
-  background-size: cover;
-  background-repeat: none;
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #007bff;
 }
+
+
+.container1{
+    margin: 15px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    opacity: .9;
+}
+
+.container1 p{
+    font-weight: bold;
+ }
+
+.container2{
+    font-weight: bold;
+    float: top;
+    background-color: gold;
+    text-align: center;
+    margin: 0px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    opacity: .7;
+}
+
+.container2 p{
+    font-weight: bold;
+ }
+    
+
+
+.navbar-brand{
+    font-size: 32px;
+}
+
+@media all and (min-width:767px) {
+   .navbar-toggler { width: 100%; display:none;}
+}   
+

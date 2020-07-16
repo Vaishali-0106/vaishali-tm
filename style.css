@@ -1,0 +1,11 @@
+.container-fluid {
+  background-color: rgb(158, 255, 47) rgb(135, 215, 235);
+  padding: 20px;
+  width: 90%;
+  margin: 20px 20px auto;
+}
+.backgroun {
+  background-image: url(image.jpeg);
+  background-size: cover;
+  background-repeat: none;
+}

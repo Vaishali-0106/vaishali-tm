@@ -1,50 +1,41 @@
-body{
-    background-image: url("img.jpg");
+.container-fluid {
+  background-color: rgb(158, 255, 47) rgb(135, 215, 235);
+  padding: 20px;
+  width: 90%;
+  margin: 20px 20px auto;
 }
-
-h2{
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    color: #007bff;
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
 }
-
-
-.container1{
-    margin: 15px;
-    background-color: lightgrey;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding-bottom: 15px;
-    opacity: .9;
+.container-fluid {
+  background-color: #99e2fff1;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
-
-.container1 p{
-    font-weight: bold;
- }
-
-.container2{
-    font-weight: bold;
-    float: top;
-    background-color: gold;
-    text-align: center;
-    margin: 0px;
-    border: 1px solid black; 
-    border-radius: 10px;
-    opacity: .7;
+@media all and (min-width: 767px) {
+  .navbar-toggler {
+    width: 100%;
+    display: none;
+  }
 }
-
-.container2 p{
-    font-weight: bold;
- }
-    
-
-
-.navbar-brand{
-    font-size: 32px;
+.navbar-brand {
+  font-size: 32px;
 }
-
-@media all and (min-width:767px) {
-   .navbar-toggler { width: 100%; display:none;}
-}   
-
+.topic {
+  background-color: rgb(238, 153, 182);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  border: 0 0 2px 0;
+}
